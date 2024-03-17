@@ -1,42 +1,31 @@
-# Random Referee Selector
+# 随机裁判选择器（Random Referee Selector）
 
-The Random Referee Selector is a simple C program designed to help users fairly and randomly select referees from a pool of candidates. It allows users to specify the total number of candidates and the number of referees to be selected, then employs a random algorithm to pick the referees. This tool is perfect for situations where quick and fair selection is needed, such as in sports matches or competition judging.
+随机裁判选择器是一个简单的C语言程序，旨在帮助用户从一组候选人中公平随机地选择裁判员。该程序允许用户指定总候选人数和需要选择的裁判员数量，然后通过随机算法选出裁判员。这个工具非常适合需要快速、公平选择人员的场合，如体育比赛、竞赛裁判等。
 
-## Installation
+## 安装
 
-To use the Random Referee Selector, you need to have a C compiler like GCC or Clang. Follow these steps to compile the program:
+要使用随机裁判选择器，您需要有一个C编译器，如GCC或Clang。请遵循以下步骤编译程序：
 
-1. Clone the repository to your local machine:
-git clone [repository URL]
-
-css
-Copy code
-2. Navigate to the repository directory:
+1. 克隆仓库到本地：
+   git clone [仓库URL]
+2. 进入仓库目录：
 cd Random-Referee-Selector
-
-css
-Copy code
-3. Compile the code using a C compiler:
+3. 使用C编译器编译代码：
 gcc -o referee_selector referee_selector.c
 
-bash
-Copy code
+## 使用说明
 
-## Usage
-
-After compilation, you can run the program with the following command:
-
+编译完成后，您可以通过以下命令运行程序：
 ./referee_selector
 
-vbnet
-Copy code
+按照程序提示输入总人数和需要选择的裁判员数量。如果需要退出程序，可以在提示输入时输入0。
 
-Follow the on-screen prompts to input the total number of people and the number of referees needed. If you wish to exit the program, you can do so by entering 0 when prompted for input.
+## 贡献
 
-## Contributing
+欢迎任何形式的贡献！如果您有改进意见或功能请求，请通过GitHub的Issue或Pull Request提交。
 
-Contributions of any kind are welcome! If you have suggestions for improvements or feature requests, please submit them via Issues or Pull Requests on GitHub.
+## 许可证
 
-## License
+该项目采用MIT许可证。有关详细信息，请查看[LICENSE](LICENSE)文件。
 
-This project is licensed under the MIT License. For more information, please see the  [LICENSE](LICENSE) file.
+
