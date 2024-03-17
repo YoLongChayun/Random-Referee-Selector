@@ -7,7 +7,7 @@
 要使用随机裁判选择器，您需要有一个C编译器，如GCC或Clang。请遵循以下步骤编译程序：
 
 1. 克隆仓库到本地：
-   git clone [仓库URL]
+   git clone https://github.com/YoLongChayun/Random-Referee-Selector.git
 2. 进入仓库目录：
 cd Random-Referee-Selector
 3. 使用C编译器编译代码：
