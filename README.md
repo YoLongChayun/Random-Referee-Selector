@@ -1,31 +1,32 @@
-# 随机裁判选择器（Random Referee Selector）
+# Random Referee Selector
 
-随机裁判选择器是一个简单的C语言程序，旨在帮助用户从一组候选人中公平随机地选择裁判员。该程序允许用户指定总候选人数和需要选择的裁判员数量，然后通过随机算法选出裁判员。这个工具非常适合需要快速、公平选择人员的场合，如体育比赛、竞赛裁判等。
+The Random Referee Selector is a straightforward C program designed for quickly and fairly selecting referees from a candidate pool. Perfect for sports and competitions, it supports customizable selections through an efficient randomization process. Developed with Visual Studio, this project is easily accessible for those familiar with Visual Studio to clone, open, and run without additional setup.
 
-## 安装
+## Installation and Setup
 
-要使用随机裁判选择器，您需要有一个C编译器，如GCC或Clang。请遵循以下步骤编译程序：
+### Prerequisites
 
-1. 克隆仓库到本地：
+- Visual Studio 2019 or later
+- A C compiler compatible with Visual Studio (typically MSVC)
+
+### Getting Started
+
+1. Clone the repository to your local machine:
    git clone https://github.com/YoLongChayun/Random-Referee-Selector.git
-2. 进入仓库目录：
-cd Random-Referee-Selector
-3. 使用C编译器编译代码：
-gcc -o referee_selector referee_selector.c
+2. Open the `Random Referee Selector.sln` file with Visual Studio.
+3. Build and run the program by pressing `F5` or via the `Build > Build Solution` and `Debug > Start Debugging` menu options.
 
-## 使用说明
+## Usage
 
-编译完成后，您可以通过以下命令运行程序：
-./referee_selector
+After compiling, follow the on-screen prompts in the Visual Studio output console to input the total number of participants and the number of referees required. To exit, enter 0 when prompted.
 
-按照程序提示输入总人数和需要选择的裁判员数量。如果需要退出程序，可以在提示输入时输入0。
+## Contributing
 
-## 贡献
+Your contributions are welcome! If you have improvement suggestions or feature requests, feel free to submit them via Issues or Pull Requests on GitHub.
 
-欢迎任何形式的贡献！如果您有改进意见或功能请求，请通过GitHub的Issue或Pull Request提交。
+## License
 
-## 许可证
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-该项目采用MIT许可证。有关详细信息，请查看[LICENSE](LICENSE)文件。
-
+[中文版](README_ZH.md)
 
